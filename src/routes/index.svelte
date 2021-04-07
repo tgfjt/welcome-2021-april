@@ -21,6 +21,16 @@
 	};
 </script>
 
+<svelte:head>
+	<title>very happy to welcome you</title>
+	<meta name="description" content="`Alone we can do so little, together we can do so much.` --Helen Keller" />
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://welcome-2021-april.pages.dev/"/>
+	<meta property="og:title" content="very happy to welcome you" />
+	<meta property="og:description" content="`Alone we can do so little, together we can do so much.` --Helen Keller" />
+	<meta property="og:image" content="https://welcome-2021-april.pages.dev/ogp.png" />
+</svelte:head>
+
 <main>
 	<h1>Welcome⚡️</h1>
 
