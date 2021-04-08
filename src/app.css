@@ -8,12 +8,17 @@
 }
 
 body {
+	@apply bg-gray-800;
 	background: linear-gradient(145deg, #d10c22, #003466, #001136, #000);
 	background-size: 400% 400%;
 	animation: gradient 30s ease infinite;
-	@apply bg-gray-800;
+	overscroll-behavior: none;
 }
 
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+	outline: 0;
+}
 
 @keyframes gradient {
 	0% {

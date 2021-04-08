@@ -51,7 +51,7 @@
 	{/if}
 </main>
 
-<style lang="scss">
+<style lang="postcss">
 	main {
 		@apply container;
 		@apply pt-2 pb-4;

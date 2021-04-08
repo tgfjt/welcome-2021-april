@@ -61,7 +61,7 @@
 	</button>
 </div>
 
-<style lang="scss">
+<style lang="postcss">
 	input {
 		font-family: inherit;
 		font-size: inherit;
