@@ -10,13 +10,9 @@
 	});
 
 	const hint = (): void => {
-		const messages = [
-			`read this: 100 101 99 111 100 101  98 97 115 101 54 52`,
-			`see JavaScript file`
-		];
-		const m = messages[random()];
-		alert(m);
-		console.log(m);
+		const message = `👀 JavaScript file \nread this: 100 101 99 111 100 101  98 97 115 101 54 52`;
+		alert(message);
+		console.log(message);
 		// .split(' ').map(Number).map(t => String.fromCharCode(t)).join('')
 	};
 </script>
